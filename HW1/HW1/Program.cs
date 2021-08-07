@@ -24,11 +24,8 @@ namespace HW1
                     hits++;
                     Console.WriteLine($"Ты сделала удар");
                 }
-
                 Console.WriteLine($"Ты забила {i + 1} гвоздь за {hits} ударов");
-
             }
-
             Console.WriteLine($"Ты забила все гвозди");
         }
 

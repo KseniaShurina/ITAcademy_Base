@@ -4,8 +4,6 @@ namespace HW1_2
 {
     class Program
     {
-
-
         static void Main(string[] args)
         {
             int nailsCount = 0;
@@ -17,6 +15,7 @@ namespace HW1_2
             }
 
             int[] nails = new int[nailsCount];
+            // Определяем количество ударов
             for (int n = 0; n < nailsCount; n++)
             {
                 nails[n] = 5;
@@ -40,7 +39,6 @@ namespace HW1_2
             Console.WriteLine($"Ты забила все гвозди");
 
             Console.ReadLine();
-
         }
     }
 }
