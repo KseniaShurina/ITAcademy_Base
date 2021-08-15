@@ -24,6 +24,10 @@ namespace ClassLibrary
             Array.Resize(ref books, books.Length + 1);
             books[books.Length - 1] = book1;
         }
+        public Book[] GetBooks()
+        {
+            return books;
+        }
         public void BookInfo(int index)
         {
             if (index < 0 || index >= books.Length)
@@ -46,28 +50,6 @@ namespace ClassLibrary
             }
             Console.WriteLine("Вы ввели неверное название книги");
         }
-        //public void BookMaxSize()
-        //{
-        //    int maxSize = 0;
-        //    int index = -1;
-        //    for (int i = 0; i < books.Length; i++)
-        //    {
-        //        int pages = books[i].GetCountPages();
-        //        if (pages > maxSize)
-        //        {
-        //            maxSize = pages;
-        //            index = i;
-        //        }
-        //    }
-        //    if (index > -1)
-        //    {
-        //        Console.WriteLine("Самая большая книга: ");
-        //        BookInfo(index);
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("В библиотеке нету книг");
-        //    }
-        //}
+        
     }
 }
