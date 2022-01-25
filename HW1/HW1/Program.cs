@@ -1,10 +1,8 @@
 ﻿using System;
-
 namespace HW1
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             // говорим, что в программе есть рандом (его надо объявлять только 1 раз)
@@ -28,6 +26,5 @@ namespace HW1
             }
             Console.WriteLine($"Ты забила все гвозди");
         }
-
     }
 }

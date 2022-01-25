@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW15_DataStreams", "HW15_DataStreams\HW15_DataStreams.csproj", "{31DD3DF6-E95F-4B63-A48E-D43FEA5C0AD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31DD3DF6-E95F-4B63-A48E-D43FEA5C0AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DD3DF6-E95F-4B63-A48E-D43FEA5C0AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DD3DF6-E95F-4B63-A48E-D43FEA5C0AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DD3DF6-E95F-4B63-A48E-D43FEA5C0AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF2EFA6B-3F83-49EE-872E-EB8D95E9B6EB}
+	EndGlobalSection
+EndGlobal

@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace HW1_2
 {
     class Program
@@ -13,7 +12,6 @@ namespace HW1_2
                 Console.Write("Введите количество гвоздей: ");
                 nailsCount = Convert.ToInt32(Console.ReadLine());
             }
-
             int[] nails = new int[nailsCount];
             // Определяем количество ударов
             for (int n = 0; n < nailsCount; n++)
@@ -21,8 +19,6 @@ namespace HW1_2
                 nails[n] = 5;
                 Console.WriteLine($"Количество ударов для {n + 1} гвоздя - {nails[n]}");
             }
-
-
             for (int n = 0; n < nailsCount; n++)
             {
                 int hits = 0;
@@ -35,9 +31,7 @@ namespace HW1_2
                 Console.WriteLine($"Ты забила 1 гвоздь");
 
             }
-
             Console.WriteLine($"Ты забила все гвозди");
-
             Console.ReadLine();
         }
     }
