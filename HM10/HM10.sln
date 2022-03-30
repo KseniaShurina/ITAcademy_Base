@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HM10", "HM10\HM10.csproj", "{27B74920-E26E-4958-829E-E64AFD813A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HM10", "HM10\HM10.csproj", "{27B74920-E26E-4958-829E-E64AFD813A62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2648D8AE-9FED-4014-87AF-CF5E724B3397}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
